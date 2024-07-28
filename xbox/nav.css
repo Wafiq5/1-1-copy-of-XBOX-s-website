@@ -1,0 +1,617 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI',SegoeUI,"Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+/*Navbar*/
+.back1 {
+  background-color: #fff;
+  width: 100%;
+  height: 1400px;
+  position: absolute;
+  z-index: -1;
+}
+nav{
+
+  background-color: white;
+  padding: 17px;
+}
+nav ul{  
+  list-style: none;
+  padding-left: 330px;
+}
+nav ul li{
+  display: inline;
+  padding: 0 23px;
+  padding-left: 0px;
+  font-size: large;
+  font-size: smaller;
+}
+nav ul li a{
+  text-decoration: none;
+  color: black;
+  
+}
+
+.resborder{
+  visibility: hidden;
+  margin: 0;
+  padding-left: 0;
+  width: 93%;
+  padding-top: 36px;
+  border-bottom: 1px solid lightgray;
+  position: absolute;
+}
+
+.gg-menu {
+  position: absolute;
+  visibility: hidden;
+  transform: scale(var(--ggs,1));
+  margin-top: 8px;
+ }
+ 
+ .gg-menu,
+ .gg-menu::after,
+ .gg-menu::before {
+  box-sizing: border-box;
+  position: absolute;
+  display: block;
+  width: 20px;
+  height: 2px;
+  border-radius: 3px;
+  background: currentColor
+ }
+ 
+ .gg-menu::after,
+ .gg-menu::before {
+  content: "";
+  position: absolute;
+  top: -5px
+ }
+ 
+ .gg-menu::after {
+  top: 5px
+ } 
+/*Microsoft logo*/
+
+.mslogo{
+  padding-top: -2px;
+  padding-left: 60px;
+  width: 110px;
+  position: absolute;
+}
+.mslogo2{
+  visibility: hidden;
+  left: 40%;
+  width: 110px;
+  position: absolute;
+}
+/*Logo Divider*/
+.logodivider{
+  position: absolute;
+  border-left: solid black 2px;
+  height: 24px;
+  margin-left: 212px;
+  margin-top: 16px;
+}
+/*Xbox logo*/
+.xboxlogo{
+  position: absolute;
+  width: 75px;
+  padding-left: 232px;
+  padding-top: 17px;
+}
+.xboxlogo2{
+    visibility: hidden;
+    position: absolute;
+  width: 70px;
+  padding-left: -70px;
+  padding-top: -10px;
+}
+/*li arrow*/
+.arrow {
+  position: absolute;
+  border: solid gray;
+  border-width: 0 1px 1px 0;
+  display: inline-block;
+  padding: 3px;
+  margin-left: 10px;
+  margin-top: 7px;
+  color: lightgray;
+}
+.down{
+  transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+}
+
+/*Inddividual li hover*/
+
+.li1{
+  position: relative;
+  padding-left: 5px;
+  padding-right: 4px;
+  padding-bottom: 3px;
+}
+.li1:hover{
+  position: relative;
+  margin-top: 50px;
+  border-bottom: black 2px solid;
+}
+
+
+.li2{
+  padding-left: 5px;
+  padding-right: 4px;
+  padding-bottom: 3px;
+}
+.li2:hover{
+  margin-top: 50px;
+  border-bottom: black 2px solid;
+}
+
+
+.li3{
+  padding-left: 5px;
+  padding-right: 4px;
+  padding-bottom: 3px;
+}
+.li3:hover{
+  margin-top: 50px;
+  border-bottom: black 2px solid;
+}
+
+
+.li4{
+  padding-left: 5px;
+  padding-bottom: 3px;
+}
+.li4:hover{
+  margin-top: 50px;
+  border-bottom: black 2px solid;
+}
+
+
+.li5{
+  padding-left: 5px;
+  padding-right: 4px;
+  padding-bottom: 3px;
+}
+
+.li5:hover{
+  margin-top: 50px;
+  border-bottom: black 2px solid;
+}
+
+
+.li6{
+  padding-left: 5px;
+  padding-right: 4px;
+  padding-bottom: 3px;
+}
+
+.li6:hover{
+  margin-top: 50px;
+  border-bottom: black 2px solid;
+}
+
+
+.li7{
+  padding-left: 5px;
+  padding-right: 4px;
+  padding-bottom: 3px;
+}
+
+.li7:hover{
+  margin-top: 50px;
+  border-bottom: black 2px solid;
+}
+
+
+.li8{
+  padding-left: 5px;
+  padding-right: 4px;
+  padding-bottom: 3px;
+}
+
+.li8:hover{
+  margin-top: 50px;
+  border-bottom: black 2px solid;
+}
+
+
+
+.arrow1 {
+  position: absolute;
+  border: solid gray;
+  border-width: 0 1px 1px 0;
+  display: inline-block;
+  padding: 3px;
+  margin-left: 10px;
+  margin-top: 5px;
+  color: lightgray;
+}
+.down1{
+  transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+}
+
+.li9{
+  position: absolute;
+  margin-left: 50px;
+  padding-top: 3px;
+  padding-left: 5px;
+  padding-right: 4px;
+  padding-bottom: 3px;
+}
+
+.li9:hover{
+  position: absolute;
+  border-bottom: black 2px solid;
+}
+
+.li10{
+  visibility: hidden;
+  position: absolute;
+  margin-left: 50px;
+  padding-top: 3px;
+  padding-left: 5px;
+  padding-right: 4px;
+  padding-bottom: 3px;
+}
+
+.li10:hover{
+  visibility: hidden;
+  position: absolute;
+  border-bottom: black 2px solid;
+}
+
+/*Search icon*/
+.gg-search {
+  box-sizing: border-box;
+  position: absolute;
+  display: block;
+  transform: scale(var(--ggs,1));
+  width: 16px;
+  height: 16px;
+  border: 2px solid;
+  border-radius: 100%;
+  margin-left: 1185px;
+  margin-top: -18px
+}
+.gg-search::after {
+  content: "";
+  display: block;
+  box-sizing: border-box;
+  position: absolute;
+  border-radius: 3px;
+  width: 2px;
+  height: 8px;
+  background: currentColor;
+  transform: rotate(-45deg);
+  top: 10px;
+  left: 12px
+}
+
+/*Shoping cart icon*/
+.gg-shopping-cart {
+  margin-left: 1220px;
+  margin-top: -20px ;
+  display: block;
+  box-sizing: border-box;
+  position: absolute;
+  transform: scale(var(--ggs,1));
+  width: 20px;
+  height: 21px;
+  background:
+  linear-gradient(
+  to left,currentColor 12px,
+  transparent 0)
+  no-repeat -1px 6px/18px 2px,
+  linear-gradient(
+  to left,currentColor 12px,
+  transparent 0)
+  no-repeat 6px 14px/11px 2px,
+  linear-gradient(
+  to left,currentColor 12px,
+  transparent 0)
+  no-repeat 0 2px/4px 2px,
+  radial-gradient(
+  circle,currentColor 60%,
+  transparent 40%)
+  no-repeat 12px 17px/4px 4px,
+  radial-gradient(
+  circle,currentColor 60%,
+  transparent 40%)
+  no-repeat 6px 17px/4px 4px
+ }
+ 
+ .gg-shopping-cart::after,
+ .gg-shopping-cart::before {
+  content: "";
+  display: block;
+  position: absolute;
+  box-sizing: border-box;
+  width: 2px;
+  height: 14px;
+  background: currentColor;
+  top: 2px;
+  left: 4px;
+  transform: skew(12deg)
+ }
+ 
+ .gg-shopping-cart::after {
+  height: 10px;
+  top: 6px;
+  left: 16px;
+  transform: skew(-12deg)
+ } 
+
+ /*Account*/
+ .account{
+  margin-top: -30px;
+  margin-left: 1260px;
+  position: absolute;
+  width: 40px;
+ }
+
+/*Responsive?*/
+@media screen and (min-width: 1324px) {
+
+  .gg-search{
+    margin-right: 110px;
+    right: 0;
+  }
+
+  .gg-shopping-cart{
+    right: 0;
+    margin-right: 75px;
+  }
+
+  .account{
+    right: 0;
+    margin-right: 15px;
+  }
+}
+@media screen and (max-width: 1324px) {
+    .li9{
+    visibility: hidden;
+
+
+    }
+
+
+    .gg-search{
+      margin-left: 1030px;
+    }
+
+    .gg-shopping-cart{
+      margin-left: 1065px;
+    }
+
+    .account{
+      margin-left: 1105px;
+    }
+}
+
+@media screen and (max-width: 1180px) {
+
+
+    .li8{
+      visibility: hidden;
+
+    }
+
+    .gg-search{
+      margin-left: 950px;
+    }
+
+    .gg-shopping-cart{
+      margin-left: 9600px;
+    }
+
+    .account{
+      margin-left: 1000px;
+    }
+}
+
+@media screen and (max-width: 1180px) {
+  .li8{
+    visibility: hidden;
+    position: absolute;
+  }
+
+  .gg-search{
+    margin-left: 925px;
+    transition: all 0.3 ease;
+  }
+
+  .gg-shopping-cart{
+    margin-left: 960px;
+  }
+
+  .account{
+    margin-left: 1000px;
+  }
+}
+
+@media screen and (max-width: 1090px) {
+  .li7{
+    visibility: hidden;
+    position: absolute;
+  }
+
+  .gg-search{
+    margin-left: 835px;
+  }
+
+  .gg-shopping-cart{
+    margin-left: 870px;
+  }
+
+  .account{
+    margin-left: 905px;
+  }
+}
+
+@media screen and (max-width: 990px) {
+  .li6{
+    visibility: hidden;
+    position: absolute;
+  }
+
+  .gg-search{
+    margin-left: 755px;
+  }
+
+  .gg-shopping-cart{
+    margin-left: 790px;
+  }
+
+  .account{
+    margin-left: 830px;
+  }
+}
+
+@media screen and (max-width: 910px) {
+  .li5{
+    visibility: hidden;
+    position: absolute;
+  }
+
+  .gg-search{
+    margin-left: 645px;
+  }
+
+  .gg-shopping-cart{
+    margin-left: 680px;
+  }
+
+  .account{
+    margin-left: 720px;
+  }
+}
+
+@media screen and (max-width: 827px) {
+  .li4{
+    visibility: hidden;
+    position: absolute;
+  }
+
+  .gg-search{
+    margin-left: 600px;
+  }
+
+  .gg-shopping-cart{
+    margin-left: 635px;
+  }
+
+  .account{
+    margin-left: 670px;
+  }
+}
+
+
+@media screen and (max-width: 800px) {
+  .li3{
+    visibility: hidden;
+    position: absolute;
+  }
+
+  .gg-search{
+    margin-left: 520px;
+  }
+
+  .gg-shopping-cart{
+    margin-left: 556px;
+  }
+
+  .account{
+    margin-left: 595px;
+  }
+}
+
+@media screen and (max-width: 740px) {
+  .li2{
+    visibility: hidden;
+    position: absolute;
+  }
+
+  .gg-search{
+    margin-left: 440px;
+  }
+
+  .gg-shopping-cart{
+    margin-left: 470px;
+  }
+
+  .account{
+    margin-left: 510px;
+  }
+}
+
+
+/*Hamburger Responsive lol*/
+@media screen and (max-width: 683px) {
+  .li1{
+    visibility: hidden;
+    position: absolute;
+  }
+ 
+  .gg-search{
+    margin-top: -1px;
+    margin-left: 40px;
+    position: absolute;
+  }
+
+  .gg-shopping-cart{
+    margin-top: -1px;
+    margin-left: 79%;
+    position: absolute;
+  }
+
+  .account{
+    margin-top: -9px;
+    margin-left: 87%;
+    position: absolute;
+  }
+
+  nav{
+    padding-bottom: 70px;
+  }
+  .navul{
+    position: absolute;
+  }
+  .xboxlogo{
+    visibility: hidden;
+    position: absolute;
+  }
+  .mstext{
+    position: absolute;
+    padding-bottom: 20px;
+    border-bottom: 1px solid lightgray;
+  }
+  .mslogo{
+    visibility: hidden;
+    position: absolute;
+  }
+  .mslogo2{
+    padding-bottom: 10px;
+    visibility: visible;
+  }
+  .xboxlogo2{
+    visibility: visible;
+    margin-top: 36px;
+    padding-top: 5px;
+  }
+  .logodivider{
+    visibility: hidden;
+    position: absolute;
+  }
+  .gg-menu{
+    visibility: visible;
+  }
+  .resborder{
+    visibility: visible;
+  }
+}
